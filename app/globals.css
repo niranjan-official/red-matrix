@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .bg-color{
-  background: linear-gradient(to right, #145ca8, #583cab);
+  background: linear-gradient(to right, #115ea8, #593cab);
 }
 .btn{
   background-color: #0f529a;
   border: 2.5px solid;
   border-image: linear-gradient(to right, rgb(171, 116, 238), #5eb3e8);
   border-image-slice: 1;
-  @apply h-fit px-4 py-2
+  @apply h-fit w-fit px-4 py-2
 }
