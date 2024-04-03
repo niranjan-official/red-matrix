@@ -6,7 +6,7 @@ const Cloud = () => {
     <div className="w-full h-max">
       <div className="w-full">
         <Image
-          src={"/assets/clouds-1.svg"}
+          src={"/assets/clouds.svg"}
           width={1000}
           height={500}
           style={{ width: "100%", height: "auto" }}

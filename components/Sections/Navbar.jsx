@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="w-full h-max flex justify-between items-center px-4 sm:px-12 py-8 z-50">
       <h1 className="text-3xl font-bold">Logo</h1>
       <div className="hidden md:flex items-center gap-10 ">
-        <div className="flex gap-12 text-lg">
+        <div className="flex md:gap-4 lg:gap-12 text-lg">
           <Link className={`p-1 ${activeNav}`} href={"#"}>
             Home
           </Link>
