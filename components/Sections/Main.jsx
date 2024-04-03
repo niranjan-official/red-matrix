@@ -25,7 +25,7 @@ const Main = () => {
         </div>
         <div className="absolute w-full sm:w-1/2 opacity-30 sm:opacity-100 top-20 lg:top-10 right-0 z-0">
           <Image
-            src={"/assets/rocket.svg"}
+            src={"/assets/rocket.png"}
             width={500}
             height={500}
             style={{ height: "100%", width: "auto" }}
