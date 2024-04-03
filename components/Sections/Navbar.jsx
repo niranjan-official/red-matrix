@@ -4,17 +4,27 @@ import React from "react";
 import NavList from "../NavList";
 
 const Navbar = () => {
-  const activeNav = 'border-b-2'
+  const activeNav = "border-b-2";
   return (
     <div className="w-full h-max flex justify-between items-center px-4 sm:px-12 py-8 z-50">
       <h1 className="text-3xl font-bold">Logo</h1>
       <div className="hidden md:flex items-center gap-10 ">
         <div className="flex gap-12 text-lg">
-          <Link className={`p-1 ${activeNav}`} href={"#"}>Home</Link>
-          <Link className={`p-1 `} href={"#"}>Services</Link>
-          <Link className={`p-1 `} href={"#"}>Portfolio</Link>
-          <Link className={`p-1 `} href={"#"}>Careers</Link>
-          <Link className={`p-1 `} href={"#"}>Contact</Link>
+          <Link className={`p-1 ${activeNav}`} href={"#"}>
+            Home
+          </Link>
+          <Link className={`p-1 `} href={"#"}>
+            Services
+          </Link>
+          <Link className={`p-1 `} href={"#"}>
+            Portfolio
+          </Link>
+          <Link className={`p-1 `} href={"#"}>
+            Careers
+          </Link>
+          <Link className={`p-1 `} href={"#"}>
+            Contact
+          </Link>
         </div>
         <button>
           <svg
@@ -50,7 +60,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className="md:hidden">
-        <NavList/>
+        <NavList />
       </div>
     </div>
   );

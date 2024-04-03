@@ -3,10 +3,10 @@ import React from "react";
 
 const Cloud = () => {
   return (
-    <div className="w-full h-96">
-      <div className="w-full relative -top-56">
+    <div className="w-full h-max">
+      <div className="w-full">
         <Image
-          src={"/assets/clouds.svg"}
+          src={"/assets/clouds-1.svg"}
           width={1000}
           height={500}
           style={{ width: "100%", height: "auto" }}

@@ -1,18 +1,9 @@
 import React from "react";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 
 const NavList = () => {
-    const activeNav = 'bg-violet-900 bg-opacity-30'
+  const activeNav = "bg-violet-900 bg-opacity-30";
   return (
     <Sheet>
       <SheetTrigger asChild>
