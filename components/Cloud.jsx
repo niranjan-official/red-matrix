@@ -10,6 +10,7 @@ const Cloud = () => {
           width={1000}
           height={500}
           style={{ width: "100%", height: "auto" }}
+          alt="..."
         />
       </div>
     </div>

@@ -29,6 +29,7 @@ const Main = () => {
             width={500}
             height={500}
             style={{ height: "100%", width: "auto" }}
+            alt="..."
           />
         </div>
         <div className="absolute w-full h-max sm:h-full top-10 left-0 z-0">
@@ -37,6 +38,7 @@ const Main = () => {
             width={1000}
             height={1000}
             style={{ height: "100%", width: "auto" }}
+            alt="..."
           />
         </div>
         <div className="absolute w-full h-full top-10 left-0 z-0">
@@ -45,6 +47,7 @@ const Main = () => {
             width={1000}
             height={1000}
             style={{ height: "100%", width: "auto" }}
+            alt="..."
           />
         </div>
       </main>

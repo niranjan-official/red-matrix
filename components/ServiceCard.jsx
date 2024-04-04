@@ -10,6 +10,7 @@ const ServiceCard = ({title,info,imgSrc}) => {
           height={300}
           width={400}
           style={{ height: "auto", width: "100%" }}
+          alt="..."
         />
       </div>
       <div className="flex flex-col items-center text-center mt-10">
