@@ -18,9 +18,9 @@ const Service = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-6 mt-5">
-          <ServiceCard />
-          <ServiceCard />
-          <ServiceCard />
+          <ServiceCard title={'Web/App Development'} imgSrc={'web.svg'} info={'We design and develop stunning websites and apps that engage users and drive results '} />
+          <ServiceCard title={'Influencers via marketing'} imgSrc={'ivm.svg'} info={'We design and develop stunning websites and apps that engage users and drive results '}/>
+          <ServiceCard title={'Digital Marketing Services'} imgSrc={'digital-marketing.svg'} info={'We implement effective digital marketing campaign to drive traffic and boost conversions'} />
         </div>
       </div>
     </div>
