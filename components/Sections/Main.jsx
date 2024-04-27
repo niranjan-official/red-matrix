@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
+import HomeButtons from "../HomeButtons";
 
 const Main = () => {
   return (
     <div style={{ height: "85vh" }} className="w-full flex flex-col">
       <Navbar />
-      <main className="w-full flex h-full items-center px-4 sm:px-14 lg:px-24 pb-4 sm:pb-0">
+      <main className="w-full flex h-full items-center px-4 sm:px-14 lg:px-24 pb-4 sm:pt-8 sm:pb-0">
         <div className="flex flex-col w-full sm:w-3/5 z-50">
           <span
             style={{ fontWeight: "900" }}
@@ -21,7 +22,7 @@ const Main = () => {
             exceptional results
           </p>
           <button className="w-fit text-sky-400 mt-1">Learn more.. &gt;</button>
-          <button className="btn mt-4">GET STARTED</button>
+            <HomeButtons/>
         </div>
         <div className="absolute w-full sm:w-1/2 opacity-30 sm:opacity-100 top-20 lg:top-10 right-0 z-0">
           <Image
