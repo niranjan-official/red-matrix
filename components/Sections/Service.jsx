@@ -3,7 +3,7 @@ import ServiceCard from "../ServiceCard";
 
 const Service = () => {
   return (
-    <div className="min-h-screen w-full flex flex-1 pb-10 px-4 sm:px-14 lg:px-24">
+    <div id="service" className="min-h-screen w-full flex flex-1 py-10 px-4 sm:px-14 lg:px-24">
       <div className="w-full flex flex-col items-center">
         <div className="flex flex-col items-center text-center gap-4 sm:px-16 lg:px-36">
           <h3 className="text-xl font-semibold">INNOVATE</h3>

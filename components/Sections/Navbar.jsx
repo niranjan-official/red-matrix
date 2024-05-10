@@ -2,27 +2,28 @@
 import Link from "next/link";
 import React from "react";
 import NavList from "../NavList";
+import Image from "next/image";
 
 const Navbar = () => {
   const activeNav = "border-b-2";
   return (
-    <div className="w-full h-max flex justify-between items-center px-4 sm:px-12 py-8 z-50">
-      <h1 className="text-3xl font-bold">Logo</h1>
+    <div className="w-full h-max flex justify-between items-center px-4 py-2 sm:px-12 z-50">
+      <Image src={'/assets/logo/logo-1.png'} width={80} height={80} />
       <div className="hidden md:flex items-center gap-10 ">
         <div className="flex md:gap-4 lg:gap-12 text-lg">
-          <Link className={`p-1 ${activeNav}`} href={"#"}>
+          <Link className={`p-1 ${activeNav}`} href={"#home"}>
             Home
           </Link>
-          <Link className={`p-1 `} href={"#"}>
+          <Link className={`p-1 `} href={"#service"}>
             Services
           </Link>
-          <Link className={`p-1 `} href={"#"}>
-            Portfolio
+          <Link className={`p-1 `} href={"#team"}>
+            Team
           </Link>
-          <Link className={`p-1 `} href={"#"}>
-            Careers
+          <Link className={`p-1 `} href={"#faq"}>
+            FAQ
           </Link>
-          <Link className={`p-1 `} href={"#"}>
+          <Link className={`p-1 `} href={"#contact"}>
             Contact
           </Link>
         </div>

@@ -5,7 +5,7 @@ const poppins = Poppins({ subsets: ["latin"],weight: '700' });
 
 const Team = () => {
   return (
-    <section className='h-max flex flex-col pb-14 px-4 sm:px-14 lg:px-24'>
+    <section id='team' className='h-max flex flex-col py-10 px-4 sm:px-14 lg:px-24'>
       <h1 className={`${poppins.className} text-6xl sm:text-6xl`}>Meet Our Team</h1>
       <p className='mt-4'>
       Get to know the talented individuals behind Redd Matrix.

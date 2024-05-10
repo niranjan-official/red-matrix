@@ -30,7 +30,7 @@ const FAQ = () => {
     },
   ];
   return (
-    <section className="h-max flex flex-col p-4 sm:px-14 lg:px-24 py-8">
+    <section id="faq" className="h-max flex flex-col p-4 sm:px-14 lg:px-24 py-8">
       <h1 className="text-3xl font-bold">FAQs</h1>
       <p className="mt-4 text-sm sm:text-md">
         Find answers to common questions about our digital marketing, web

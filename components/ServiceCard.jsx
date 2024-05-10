@@ -13,9 +13,9 @@ const ServiceCard = ({title,info,imgSrc}) => {
           alt="..."
         />
       </div>
-      <div className="flex flex-col items-center text-center mt-10">
+      <div className="flex flex-col items-center text-center mt-4 sm:mt-10">
         <h2 className="w-3/4 text-2xl font-bold">{title}</h2>
-        <p className="mt-4">{info}</p>
+        <p className="mt-2 sm:mt-4">{info}</p>
         <button className="text-sky-400">Learn more.. &gt;</button>
       </div>
     </div>

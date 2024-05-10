@@ -5,7 +5,7 @@ import HomeButtons from "../HomeButtons";
 
 const Main = () => {
   return (
-    <div style={{ height: "85vh" }} className="w-full flex flex-col">
+    <section id="home" style={{ height: "85vh" }} className="w-full flex flex-col">
       <Navbar />
       <main className="w-full flex h-full items-center px-4 sm:px-14 lg:px-24 pb-4 sm:pt-8 sm:pb-0">
         <div className="flex flex-col w-full sm:w-3/5 z-50">
@@ -52,7 +52,7 @@ const Main = () => {
           />
         </div>
       </main>
-    </div>
+    </section>
   );
 };
 

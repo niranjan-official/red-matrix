@@ -28,19 +28,19 @@ const NavList = () => {
         <h1 className="text-3xl font-bold">Logo</h1>
         <hr className="my-4" />
         <div className="flex flex-col gap-4 text-xl">
-          <Link className={`p-1 pl-2 ${activeNav}`} href={"#"}>
+          <Link className={`p-1 pl-2 ${activeNav}`} href={"#home"}>
             Home
           </Link>
-          <Link className={`p-1 pl-2 `} href={"#"}>
+          <Link className={`p-1 pl-2 `} href={"#service"}>
             Services
           </Link>
-          <Link className={`p-1 pl-2 `} href={"#"}>
-            Portfolio
+          <Link className={`p-1 pl-2 `} href={"#team"}>
+            Team
           </Link>
-          <Link className={`p-1 pl-2 `} href={"#"}>
-            Careers
+          <Link className={`p-1 pl-2 `} href={"#faq"}>
+            FAQ
           </Link>
-          <Link className={`p-1 pl-2 `} href={"#"}>
+          <Link className={`p-1 pl-2 `} href={"#contact"}>
             Contact
           </Link>
         </div>
