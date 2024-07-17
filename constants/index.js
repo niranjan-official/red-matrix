@@ -13,7 +13,7 @@ export const TeamMembers = [
     },
     {
       name: 'Alan John',
-      position: 'Designer',
+      position: 'Ui/Ux Designer',
       description: 'Alan brings creativity and innovation to every project with his exceptional design skills.',
       image: 'alen.jpg'
     },
