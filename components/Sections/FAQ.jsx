@@ -52,7 +52,7 @@ const FAQ = () => {
       <div className="flex flex-col gap-4 mt-12">
         <h1 className="text-2xl font-bold">Still have any questions?</h1>
         <h5>Contact us for more information or get started.</h5>
-        <button className="btn">Contact</button>
+        <a href="mailto:reddmatrixmedia@gmail.com" className="btn">Contact</a>
       </div>
     </section>
   );

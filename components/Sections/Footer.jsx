@@ -47,19 +47,19 @@ const Footer = () => {
             </p>
             <hr className="my-2" />
             <div className="flex gap-4 items-center text-neutral-200">
-              <a href="#">
+              <a href="https://www.instagram.com/redd_matrix?igsh=MWg0cGU3a2p2ZWhsZg==">
                 <BsInstagram size={20} />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/alanwayne369/">
                 <FaFacebook size={20} />
               </a>
-              <a href="#">
+              <a href="https://x.com/MediaReddmatrix?t=Kyhx2KTSvpZldBiLy2n-Mg&s=09">
                 <BsTwitterX size={20} />
               </a>
-              <a href="#">
+              <a href="https://youtube.com/@reddmatrixmedia?si=rH5uK88RQSjidkyl">
                 <FaYoutube size={20} />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/alan-johnson-p-j-ab55861ba/?originalSubdomain=in">
                 <FaLinkedin size={20} />
               </a>
             </div>
