@@ -24,15 +24,15 @@ export const TeamMembers = [
       image: 'gopika.jpg'
     },
     {
-      name: 'Niranjan Sabarinath',
-      position: 'Developer',
-      description: 'Niranjan is passionate about coding and learning new technologies.',
-      image: 'niranjan.jpg'
-    },
-    {
       name: 'Vineeth KV',
       position: 'Developer',
       description: 'Skilled developer focused on creating efficient and scalable software applications.',
       image: 'vineeth.jpg'
+    },
+    {
+      name: 'Niranjan Sabarinath',
+      position: 'Developer',
+      description: 'Niranjan is passionate about coding and learning new technologies.',
+      image: 'niranjan.jpg'
     },
   ];
