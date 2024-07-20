@@ -12,15 +12,15 @@ const Footer = () => {
     <footer className=" bg-blue-950 bg-opacity-80 py-4">
       <div className="flex flex-col">
         <div className="w-full flex flex-col md:flex-row justify-between md:items-center p-4 md:10 lg:px-16">
-          <div className="flex flex-col text-neutral-300">
+          <div className="flex flex-col text-neutral-300 max-sm:text-sm">
             <h1 className="text-3xl font-bold uppercase text-white">
               redd matrix
             </h1>
             <h2 className="mt-2">6th Floor, SCMS College Building</h2>
             <h3>North Kalamassery, Ernakulam</h3>
             <h4>Kerala 683104</h4>
-            <div className="flex flex-col">
-              <p className="mt-2 text-white font-medium">
+            <div className="flex flex-col mt-3">
+              <p className="text-white font-medium">
                 Subscribe to our Newsletter
               </p>
               <div className="flex mt-1 gap-2">
@@ -35,9 +35,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 max-md:mt-6">
-            <h2 className="text-2xl font-extrabold">Contact Us</h2>
-            <p className="flex gap-2 items-center mt-2">
+          <div className="flex flex-col md:gap-2 max-md:mt-6">
+            <h2 className="text-xl md:text-2xl font-extrabold">Contact Us</h2>
+            <p className="flex gap-2 items-center mt-1 md:mt-2">
               <IoMdMail size={20} />
               reddmatrixmedia@gmail.com
             </p>
@@ -45,8 +45,7 @@ const Footer = () => {
               <FaPhoneAlt size={16} />
               +91 7994964688
             </p>
-            <hr className="my-2" />
-            <div className="flex gap-4 items-center text-neutral-200">
+            <div className="flex gap-4 items-center text-neutral-200 mt-3">
               <a href="https://www.instagram.com/redd_matrix?igsh=MWg0cGU3a2p2ZWhsZg==">
                 <BsInstagram size={20} />
               </a>

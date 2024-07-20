@@ -8,7 +8,7 @@ const Navbar = () => {
   const activeNav = "border-b-2";
   return (
     <div className="w-full h-max flex justify-between items-center px-4 py-2 sm:px-12 z-50">
-      <Image src={'/assets/logo/logo-1.png'} width={80} height={80} />
+      <Image src={'/assets/logo/logo.png'} width={80} height={80} />
       <div className="hidden md:flex items-center gap-10 ">
         <div className="flex md:gap-4 lg:gap-12 text-lg">
           <Link className={`p-1 ${activeNav}`} href={"#home"}>
